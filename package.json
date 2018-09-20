@@ -1,0 +1,24 @@
+{
+  "name": "hiring-assessment-retake-im07",
+  "version": "1.0.0",
+  "description": "retake assessment for immersive 07",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codestates/im07-2018-09-hiring-assessment-retake.git"
+  },
+  "author": "Johnny Ilmo Koo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codestates/im07-2018-09-hiring-assessment-retake/issues"
+  },
+  "homepage": "https://github.com/codestates/im07-2018-09-hiring-assessment-retake#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "npx": "^10.2.0",
+    "react-router-dom": "^4.3.1"
+  }
+}
