@@ -10,7 +10,7 @@ export default class Main extends Component {
   }
   
   async componentDidMount(){
-    const photolist = await axios.get("https://picsum.photos/list")
+    const photolist = await axios.get("http://localhost:3000")
     console.log(photolist)
     setTimeout(()=> this.setState({photo : photolist.data}) ,100)  
   }

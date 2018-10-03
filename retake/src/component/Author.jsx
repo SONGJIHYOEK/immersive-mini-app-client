@@ -10,7 +10,7 @@ export default class Author extends Component {
   async findOne(){
     let authorslist =[]
     const authorname = unescape(window.location.href).split("author/")[1]
-    const photolist = await axios.get("https://picsum.photos/list")
+    const photolist = await axios.get("http://localhost:3000/")
     photolist.data.forEach((element)=>{
       if(element.author === authorname){
         authorslist.push(element.id)
